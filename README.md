@@ -1,2 +1,72 @@
 # golang-demo-code
 用于学习go语言的记录
+
+# Hello world
+我的第一句`go`代码，[详情](./main.go)
+
+# 算术运算、变量、常量、打印
+
+- 算术运算
+
+  ```go
+  const num8 = 123
+  const num9 = num8 * 11.0
+  const num10 = num9 / 1.7
+  fmt.Println(num10)
+  ```
+- 变量
+
+  ```go
+  // 单个变量
+  var num = 123
+  fmt.Println(num)
+  // 多个变量 第一种
+  var num1, num2 = 123, 456
+  fmt.Println(num1, num2)
+
+  // 第二种
+  var (
+    num3 = 123
+    num4 = 456
+  )
+  fmt.Println(num3, num4)
+  ```
+- 常量
+
+  ```go
+  const num7 = 123
+  fmt.Println(num7)
+  ```
+- 打印
+
+  打印是通过`"fmt"`包来打印的，主要打印方法:`Printf`、`Println`、`Print`。
+  
+  * Printf：带有格式化参数输出
+  * Println：自带换行输出
+  * Print：直接输出
+  ```go
+  // 输出格式化
+  // 6位长度，左边补空格
+  fmt.Printf("%6v\n", num1)
+  // 负数右补齐
+  fmt.Printf("%-6v %3v\n", num1, num2)
+  ```
+  > %v占位符，负数-右填充，正数-左填充
+
+[代码详情](./mars.go)
+
+# 循环和分支
+循环和分支和其他语言大同小异。需要注意的是`go`中没有**while**循环语句。
+
+练习代码[详见](./iffor.go)
+
+# 变量和作用域
+这里的*变量*主要是引入一种 **短声明方式(:=)** 定义变量。作用域有过其他语言经验也很好理解，这里特定说明一下`package`变量作用域。
+
+练习代码[详见](./scope.go)
+
+# go05部分习题
+
+![./docs/en/images/go05习题.png](./docs/en/images/go05习题.png)
+
+答案：[习题答案](./go05.go)
