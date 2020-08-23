@@ -70,3 +70,16 @@
 ![./docs/en/images/go05习题.png](./docs/en/images/go05习题.png)
 
 答案：[习题答案](./go05.go)
+
+# 实数（浮点数）
+
+浮点数相关的注意事项都在demo中有所体现。
+
+练习代码[详见](./go06.go)
+
+**作业题：**
+
+![go06作业题](./docs/en/images/go06作业题.png)
+
+[答案](./go06.go)
+
