@@ -92,3 +92,11 @@
 
 答案：[习题答案](./go07.go)
 
+# 大数（math/big）
+
+练习代码[详见](./go08.go)
+
+**作业题**
+![go07-homework](./docs/en/images/go08-homework.png)
+
+答案：[习题答案](./go08.go)
