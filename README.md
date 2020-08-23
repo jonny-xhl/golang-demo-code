@@ -100,3 +100,12 @@
 ![go07-homework](./docs/en/images/go08-homework.png)
 
 答案：[习题答案](./go08.go)
+
+# 字符串
+
+练习代码[详见](./go09.go)
+
+**作业题**
+![go07-homework](./docs/en/images/go09-homework.png)
+
+答案：[习题答案](./go09.go)
