@@ -67,7 +67,7 @@
 
 # go05部分习题
 
-![./docs/en/images/go05习题.png](./docs/en/images/go05习题.png)
+![go05-homework](./docs/en/images/go05-homework.png)
 
 答案：[习题答案](./go05.go)
 
@@ -79,7 +79,14 @@
 
 **作业题：**
 
-![go06作业题](./docs/en/images/go06作业题.png)
+![go06-homework](./docs/en/images/go06-homework.png)
 
 [答案](./go06.go)
+
+# 整数
+
+练习代码[详见](./go07.go)
+
+**作业题**
+![go07-homework](./docs/en/images/go07-homework.png)
 

@@ -57,17 +57,17 @@ func main() {
 	fmt.Println(math.Abs(piggyBank-0.3) < 0.0001)
 
 	fmt.Println("======作业题======")
-	homework()
+	homework06()
 }
 
-const totle = 20
+const totle06 = 20
 
-func homework() {
+func homework06() {
 	fmt.Println("======go06作业题======")
 	var coin05, coin01, coin025 float64 = 0.05, 0.10, 0.25
 	// r := rand.Intn(2) + 1
 	var deposit float64
-	for deposit <= totle {
+	for deposit < totle06 {
 		switch rand.Intn(3) + 1 {
 		case 1:
 			deposit += coin01
