@@ -48,7 +48,7 @@ func getSpaceline() (spaceline string) {
 
 // 获取速度；返回km/h
 func getSpeed() int {
-	return (rand.Intn(30-16) + 1) * 60 * 60
+	return (rand.Intn(30-16) + 16) * 60 * 60
 }
 
 //  获取里程类型；1-单程  2-往返
@@ -58,5 +58,5 @@ func getTripType() int {
 
 // 票价；单位：百万美元（单程）
 func getPrice() int {
-	return rand.Intn(5000-3600) + 1
+	return rand.Intn(5000-3600) + 3600
 }
