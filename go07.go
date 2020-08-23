@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"math"
 	"math/rand"
 	"time"
 )
@@ -62,6 +63,17 @@ func main() {
 	fmt.Print(time.Now(), "\n")
 	future := time.Unix(1598184411, 0)
 	fmt.Println(future)
+
+	// math自带的整数极限值
+	fmt.Println(math.MaxInt8)
+	fmt.Println(math.MaxInt16)
+	fmt.Println(math.MaxInt32)
+	fmt.Println(math.MaxInt64)
+	fmt.Println(math.MaxUint8)
+	fmt.Println(math.MaxUint16)
+	fmt.Println(math.MaxUint32)
+	// 这里会异常,超出int范围
+	//fmt.Println(math.MaxUint64)
 
 	// 作业题
 	homework07()
