@@ -109,3 +109,12 @@
 ![go07-homework](./docs/en/images/go09-homework.png)
 
 答案：[习题答案](./go09.go)
+
+# 类型转换
+
+练习代码[详见](./go10.go)
+
+**作业题**
+![go07-homework](./docs/en/images/go10-homework.png)
+
+答案：[习题答案](./go10.go)
