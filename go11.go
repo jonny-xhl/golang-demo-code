@@ -8,7 +8,7 @@ import (
 const secret = "GOLANG"
 
 func main() {
-	input := "ihioqwhiwqeiohiowqe"
+	input := "CSOITEUIWUIZNSROCNKFD"
 	// fmt.Printf("%c\n", 90)
 	fmt.Println(decodeInput(input))
 }
@@ -20,8 +20,8 @@ func decodeInput(str string) (result string) {
 	for i, c := range str {
 		//密钥第几位
 		ch = i % 6
-		res = c + rune(secret[ch]-65)
-		// fmt.Println("%c", res)
+		res = c - rune(secret[ch]-65)
+		fmt.Println("%c", res)
 		// if res > 'Z' {
 		// 	res = res - 90
 		// }

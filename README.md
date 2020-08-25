@@ -97,7 +97,7 @@
 练习代码[详见](./go08.go)
 
 **作业题**
-![go07-homework](./docs/en/images/go08-homework.png)
+![go08-homework](./docs/en/images/go08-homework.png)
 
 答案：[习题答案](./go08.go)
 
@@ -106,7 +106,7 @@
 练习代码[详见](./go09.go)
 
 **作业题**
-![go07-homework](./docs/en/images/go09-homework.png)
+![go09-homework](./docs/en/images/go09-homework.png)
 
 答案：[习题答案](./go09.go)
 
@@ -115,6 +115,16 @@
 练习代码[详见](./go10.go)
 
 **作业题**
-![go07-homework](./docs/en/images/go10-homework.png)
+![go10-homework](./docs/en/images/go10-homework.png)
 
 答案：[习题答案](./go10.go)
+
+# 第二部分作业题
+
+**作业题①**
+
+![go11-homework-part01](./docs/en/images/go11-homework-part01.png)
+
+**作业题②**
+
+![go11-homework-part02](./docs/en/images/go11-homework-part02.png)
