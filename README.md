@@ -128,3 +128,13 @@
 **作业题②**
 
 ![go11-homework-part02](./docs/en/images/go11-homework-part02.png)
+
+# 函数
+
+练习代码[详见](./go12.go)
+
+**作业题**
+![go12-homework](./docs/en/images/go12-homework.png)
+
+答案：[习题答案](./go12.go)
+
