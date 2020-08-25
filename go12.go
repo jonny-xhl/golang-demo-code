@@ -26,3 +26,18 @@ func kelvinToFahrenheit(k float64) float64 {
 	// K-->℃-->℉
 	return celsiusToFahrenheit(kelvinToCelsius(k))
 }
+
+// 任意多个参数
+func params(a ...interface{}) {
+
+}
+
+// 多个入参
+func manyParameter(a, b int, s string) {
+
+}
+
+// 多个出参
+func manyRerutn() (a, b int, s string) {
+	return a, b, s
+}
